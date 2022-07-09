@@ -1,3 +1,5 @@
+package practice;
+
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -12,7 +14,6 @@ public class Main {
 
         System.out.print("Enter your Age ");
         int age = input.nextInt();
-
         age = age * 12;
 
         System.out.println("Your age in Months is = " + age );
